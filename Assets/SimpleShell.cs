@@ -134,6 +134,9 @@ public class SimpleShell : MonoBehaviour {
                 shells[i].GetComponent<MeshRenderer>().material.SetFloat("_NoiseMin", noiseMin);
                 shells[i].GetComponent<MeshRenderer>().material.SetFloat("_NoiseMax", noiseMax);
                 shells[i].GetComponent<MeshRenderer>().material.SetVector("_ShellColor", shellColor);
+
+
+                // shells[i].GetComponent<MeshRenderer>().material.SetVector("_ShellDirection", displacementDirection);
             }
         }
     }
